@@ -1,0 +1,290 @@
+{
+  "uuid": "db24c75257283275f4ba7985a888ee68",
+  "path": "Offline/Polarization%20Contol",
+  "name": "Polarization Contol",
+  "content": "",
+  "created_at": "2023-02-22 22:39:55",
+  "updated_at": "2023-02-23 00:06:03",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "1c866e6eb89d1963ea3c4f0dc48d0bc7",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c5dbb38e5e594e87865e356d04bedba9": 1,
+        "f3ec869f396b483492e18ca96debb6bf": 3,
+        "a121e16bd84f4ac7b572e4e48f84b493": 1,
+        "5ea300d09cc640319a67b9b0b50ddb7c": 1,
+        "6f6a22c0a66445b4bfec76de44b75eb7": 1,
+        "22a3615e4eb808fb0a8393e33760ea4b": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100uF",
+          1,
+          "CAP-TH_BD6.3-P2.50-D0.5-FD",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2960218",
+            "BOM_Manufacturer": "HRK(鸿瑞凯电子)",
+            "BOM_Manufacturer Part": "25V100uF CD110",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "64a7f92837bb4510988b60872b0cfbf5",
+            "uuid": "c5dbb38e5e594e87865e356d04bedba9"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C2,C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CX(承兴)",
+            "BOM_Manufacturer Part": "KM476M016D11RR0VH2FP0",
+            "BOM_Supplier Part": "C22320",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3744bcbe1f464b01ae180f32d7d4b0c4",
+            "uuid": "22a3615e4eb808fb0a8393e33760ea4b"
+          }
+        ],
+        [
+          "HY-4AW",
+          3,
+          "CONN-TH_4P-P2.00_HY-4AW",
+          "CN1,CN2,CN3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "HY-4AW",
+            "BOM_Supplier Part": "C146068",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7995a4337d3d45b2ac3f5251f760bcc8",
+            "uuid": "f3ec869f396b483492e18ca96debb6bf"
+          }
+        ],
+        [
+          "PHOTORESPDV-P9",
+          1,
+          "PDV-P9XXX",
+          "R1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "99959802cb0742ccac25d0c38171a0c6",
+            "uuid": "5ea300d09cc640319a67b9b0b50ddb7c"
+          }
+        ],
+        [
+          "RESISTOR MRF-12 3.4mm",
+          1,
+          "RESISTOR-MRF-12",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "-",
+            "puuid": "d5ca5d8f8d864906a2d30116af0edc14",
+            "uuid": "6f6a22c0a66445b4bfec76de44b75eb7"
+          }
+        ],
+        [
+          "ESP32_DEVKITC_V4",
+          1,
+          "ESP32-DEVKITC CORE BOARD ESP32",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "A5130",
+            "puuid": "ed3f07067ac347b8a3d8ef25aed9d7fe",
+            "uuid": "a121e16bd84f4ac7b572e4e48f84b493"
+          }
+        ]
+      ],
+      "updateTime": 1677084653,
+      "createTime": 1677080395,
+      "histories": [],
+      "created_at": "2023-02-22 22:39:55",
+      "updated_at": "2023-02-22 23:50:53"
+    },
+    {
+      "uuid": "578a7ef75c53ac70d5e2b16f54e953ea",
+      "title": "Sheet_2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100uF",
+          1,
+          "CAP-TH_BD6.3-P2.50-D0.5-FD",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2960218",
+            "BOM_Manufacturer": "HRK(鸿瑞凯电子)",
+            "BOM_Manufacturer Part": "25V100uF CD110",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "64a7f92837bb4510988b60872b0cfbf5",
+            "uuid": "c5dbb38e5e594e87865e356d04bedba9"
+          }
+        ],
+        [
+          "HY-4AW",
+          6,
+          "CONN-TH_4P-P2.00_HY-4AW",
+          "CN1,CN2,CN3,CN4,CN5,CN6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "HY-4AW",
+            "BOM_Supplier Part": "C146068",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7995a4337d3d45b2ac3f5251f760bcc8",
+            "uuid": "f3ec869f396b483492e18ca96debb6bf"
+          }
+        ],
+        [
+          "CON_TERMINAL_BLOCK_02-5MM",
+          2,
+          "TERMINAL_BLOCK_2P_5",
+          "J1,J2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e98f44b0812c44de84ef8c8e9ff5759f",
+            "uuid": "e162ca3fb60349e483cfc431290a3ee0"
+          }
+        ],
+        [
+          "LED-0603R",
+          2,
+          "LED0603-RD_RED",
+          "LED1,LED2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900014854",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "LED-0603R",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "267a6f7006e64285b145cfc7f6180b7f",
+            "uuid": "1ec4e22a21ff40778c74538538d59361"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "33k",
+          6,
+          "R0603",
+          "R3,R4,R5,R6,R7,R8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "L293D",
+          1,
+          "DIP-16_L20.0-W6.4-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L293D",
+            "BOM_Supplier Part": "C12340",
+            "puuid": "f2561f0fa47346d3a02d341f9e29ef9e",
+            "uuid": "b1640e9eab5a4da6919b6e6209d9a257"
+          }
+        ],
+        [
+          "ESP32_DEVKITC_V4",
+          1,
+          "ESP32-DEVKITC CORE BOARD ESP32",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "A5130",
+            "puuid": "ed3f07067ac347b8a3d8ef25aed9d7fe",
+            "uuid": "a121e16bd84f4ac7b572e4e48f84b493"
+          }
+        ]
+      ],
+      "updateTime": 1677080430,
+      "createTime": 1677080430,
+      "histories": [],
+      "created_at": "2023-02-22 22:40:30",
+      "updated_at": "2023-02-22 22:40:30"
+    },
+    {
+      "uuid": "076507082cf7c6bb8e0b738a1fbf70fb",
+      "puuid": "db24c75257283275f4ba7985a888ee68",
+      "title": "PCB_Polarization Contol_2",
+      "filename": "PCB_Polarization Contol_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "64a7f92837bb4510988b60872b0cfbf5": 1,
+        "7995a4337d3d45b2ac3f5251f760bcc8": 3,
+        "99959802cb0742ccac25d0c38171a0c6": 1,
+        "d5ca5d8f8d864906a2d30116af0edc14": 1,
+        "ed3f07067ac347b8a3d8ef25aed9d7fe": 1,
+        "3744bcbe1f464b01ae180f32d7d4b0c4": 2
+      },
+      "BOM": [],
+      "updateTime": 1677085563,
+      "createTime": 1677084336,
+      "histories": [],
+      "created_at": "2023-02-22 23:45:36",
+      "updated_at": "2023-02-23 00:06:03"
+    }
+  ],
+  "sort": [
+    "1c866e6eb89d1963ea3c4f0dc48d0bc7",
+    "578a7ef75c53ac70d5e2b16f54e953ea"
+  ],
+  "title": "Polarization Contol",
+  "foldername": "Polarization Contol",
+  "schfilename": "Polarization Contol.json",
+  "schfilemtime": 1677084653199
+}
